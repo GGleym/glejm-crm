@@ -1,0 +1,1 @@
+export {PhysicalClientTabs} from './ui';

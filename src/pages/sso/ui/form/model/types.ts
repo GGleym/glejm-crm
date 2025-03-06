@@ -1,0 +1,4 @@
+export enum AuthErrorType {
+  SERVER_ERROR = 'SERVER_ERROR',
+  INVALID_CREDENTIALS = 'INVALID_CREDENTIALS',
+}

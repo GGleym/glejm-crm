@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "~/app/*": ["app/*"],
+      "~/assets/*": ["assets/*"],
+      "~/ui/*": ["shared/ui/*"],
+      "~/kit/*": ["shared/kit/*"],
+      "~/api/*": ["shared/api/*"],
+      "~/hooks/*": ["shared/hooks/*"],
+      "~/utils/*": ["shared/utils/*"],
+      "~/services/*": ["shared/services/*"],
+      "~/features/*": ["features/*"],
+      "~/pages/*": ["pages/*"],
+      "~/entities/*": ["entities/*"],
+      "~/config/*": ["shared/config/*"],
+      "~/consts/*": ["shared/consts/*"],
+      "~/types/*": ["shared/types/*"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["./src/**/*.stories.*"]
+}
